@@ -36,6 +36,8 @@ import com.android.settings.security.LockscreenDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
+import com.thunder.waves.PartsFragment;
+
 import java.util.Map;
 
 import com.android.settings.custom.ButtonSettings;
@@ -93,6 +95,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_SECURITY_LOCKSCREEN);
         PARENT_TO_CATEGORY_KEY_MAP.put(ButtonSettings.class.getName(),
                 CategoryKey.CATEGORY_CUSTOM_SETTINGS);
+        PARENT_TO_CATEGORY_KEY_MAP.put(PartsFragment.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
