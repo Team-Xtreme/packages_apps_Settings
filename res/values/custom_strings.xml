@@ -46,5 +46,8 @@
     <string name="theme_applied_toast">Theme applied.</string>
     <string name="ui_style_applied_toast">UI style changed.</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
 </resources>
 
