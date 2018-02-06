@@ -16,18 +16,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Pixel color on sim card -->
+  <string name="pixel_sim_color">Pixel</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <!-- Format string for fingerprint location message -->
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">Lokaliseer de vingerafdruksensor op de <xliff:g id="sensor_location">%1$s</xliff:g> van je telefoon.</string>
   <!-- Fingerprint sensor locations -->
+  <string name="security_settings_fingerprint_sensor_location_back">achterkant</string>
+  <string name="security_settings_fingerprint_sensor_location_front">voorkant</string>
+  <string name="security_settings_fingerprint_sensor_location_left">linkerkant</string>
+  <string name="security_settings_fingerprint_sensor_location_right">rechterkant</string>
   <!-- Encryption and credential -->
   <string name="custom_encryption_and_credential_settings_summary_on">Apparaat is versleuteld</string>
   <string name="custom_encryption_and_credential_settings_summary_off">Apparaat is niet versleuteld</string>
   <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
   <!-- Themes -->
+  <string name="system_theme_style_title">UI stijl</string>
   <string name="system_theme_style_auto">Dynamisch</string>
   <string name="system_theme_style_light">Licht</string>
   <string name="system_theme_style_dark">Donker</string>
   <string name="system_theme_style_black">Zwart</string>
   <string name="theme_applied_toast">Thema toegepast.</string>
-  <string name="ui_style_applied_toast">UI-stijl gewijzigd.</string>
+  <string name="applying_theme_toast">Thema wordt toegepast, even geduld...</string>
+  <!-- Notification log -->
+  <!-- Manual provisioning -->
+  <string name="sim_enabled">ingeschakeld</string>
+  <string name="sim_disabled">uitgeschakeld</string>
+  <string name="sim_missing">ontbrekend of foutief</string>
+  <string name="sim_enabler_need_disable_sim">Simkaart wordt gedeactiveerd? Wilt u doorgaan?</string>
+  <string name="sim_enabler_will_disable_sim_title">Opgelet</string>
+  <string name="sub_activate_success">Simkaart geactiveerd.</string>
+  <string name="sub_activate_failed">Activeren mislukt.</string>
 </resources>

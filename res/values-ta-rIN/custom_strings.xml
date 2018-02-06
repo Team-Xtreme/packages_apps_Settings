@@ -16,7 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Pixel color on sim card -->
-  <string name="default_sim_color">பிக்சல்</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">திரைபலகை பேக்அப் கடவுச்சொல்</string>
   <!-- Format string for fingerprint location message -->
@@ -37,5 +36,6 @@
   <string name="system_theme_style_dark">இருண்ட</string>
   <string name="system_theme_style_black">கறுப்பு</string>
   <string name="theme_applied_toast">தீம் பிரயோகிக்கப்பட்டது.</string>
-  <string name="ui_style_applied_toast">UI ஸ்டைல் மாறியது.</string>
+  <!-- Notification log -->
+  <!-- Manual provisioning -->
 </resources>

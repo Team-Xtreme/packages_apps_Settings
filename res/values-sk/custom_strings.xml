@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Pixel color on sim card -->
-  <string name="default_sim_color">Pixel</string>
+  <string name="pixel_sim_color">Pixel</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Heslo pre zálohu v počítači</string>
   <!-- Format string for fingerprint location message -->
@@ -37,5 +37,24 @@
   <string name="system_theme_style_dark">Tmavý</string>
   <string name="system_theme_style_black">Čierna</string>
   <string name="theme_applied_toast">Téma použitá.</string>
-  <string name="ui_style_applied_toast">Štýl UI sa zmenil.</string>
+  <string name="applying_theme_toast">Aplikujem tému, počkajte prosím...</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Zobraziť protokol histórie upozornení</string>
+  <!-- Manual provisioning -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">zapnutá</string>
+  <string name="sim_disabled">vypnutá</string>
+  <string name="sim_missing">chýbajúca alebo chybná</string>
+  <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivovaná. Chcete pokračovať?</string>
+  <string name="sim_enabler_will_disable_sim_title">Upozornenie</string>
+  <string name="sim_enabler_need_switch_data_service">Táto SIM karta bude zakázaná a SIM karta <xliff:g id="slotid">%1$s</xliff:g> bude použitá pre dátové služby. Naozaj chcete pokračovať?</string>
+  <string name="sim_enabler_airplane_on">Akciu nie je možné vykonať, pokiaľ je aktivovaný režim v lietadle.</string>
+  <string name="sim_enabler_in_call">Počas prebiehajúceho hovoru nie je možné vykonať túto akciu.</string>
+  <string name="sim_enabler_both_inactive">Nemožno zakázať všetky karty SIM</string>
+  <string name="sim_enabler_enabling">Aktivovanie\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivovanie\u2026</string>
+  <string name="sub_activate_success">SIM bola aktivovaná.</string>
+  <string name="sub_activate_failed">Aktivácia zlyhala.</string>
+  <string name="sub_deactivate_success">SIM bola deaktivovaná.</string>
+  <string name="sub_deactivate_failed">Deaktivácia sa nepodarila.</string>
 </resources>

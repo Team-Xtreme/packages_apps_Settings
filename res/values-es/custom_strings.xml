@@ -16,7 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Pixel color on sim card -->
-  <string name="default_sim_color">Pixel</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Contraseña para copias de ordenador</string>
   <!-- Format string for fingerprint location message -->
@@ -37,5 +36,6 @@
   <string name="system_theme_style_dark">Oscuro</string>
   <string name="system_theme_style_black">Negro</string>
   <string name="theme_applied_toast">Tema aplicado.</string>
-  <string name="ui_style_applied_toast">Estilo de Interfaz cambiado.</string>
+  <!-- Notification log -->
+  <!-- Manual provisioning -->
 </resources>
