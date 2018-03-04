@@ -37,6 +37,9 @@
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <string name="summary_empty" translatable="false"></string>
 
+    <string name="build_tweaks_summary_title">Feel The Thunder</string>
+
+    <string name="waves_title">ThunderWaves</string> 
     <!-- Themes -->
     <string name="system_theme_style_title">UI style</string>
     <string name="system_theme_style_auto">Dynamic</string>
